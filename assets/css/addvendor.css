@@ -1,0 +1,55 @@
+.card_body{
+    background: #FFFFFF;
+    border: 0.75px solid rgba(226, 226, 226, 0.5);
+    box-shadow: 0px 4px 4px rgba(68, 97, 242, 0.05);
+    border-radius: 5px;
+    margin:50px;
+    
+}
+.detail-heading{
+}
+.card_contain{
+    margin-left: 300px;
+    margin-top: 30px;
+    
+}
+.buttondesign{
+    display: flex;
+    
+}
+.cancelbtn{
+        margin-right: 10px;
+        background-color: white !important;
+        color: #262161 !important;
+}
+.btn-brand-02 {
+    background-color:#262161;
+    border-color: #262161;
+    color: #fff;
+    width: 152px;
+    height: 49px;
+    font-family: 'Inter UI';
+}
+.formlabel{
+    margin-bottom: 30px;
+}
+.invite_via_email{
+    
+font-family: 'Inter UI';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #323232;
+}
+.plusimg{
+ width: 10px;
+ height: 10px;
+ margin-right:10px;
+}
+.wrapper{
+    margin-right:270px;
+}
