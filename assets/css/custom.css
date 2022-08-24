@@ -1,10 +1,60 @@
 
-
-
 .form-control{
     background: #FFFFFF;
-border: 0.75px solid rgba(226, 226, 226, 0.5);
-box-shadow: 0px 4px 4px rgba(68, 97, 242, 0.05);
-border-radius: 5px;
-height: 50px;
+    border: 0.75px solid rgba(226, 226, 226, 0.5);
+    box-shadow: 0px 4px 4px rgba(68, 97, 242, 0.05);
+    border-radius: 5px;
+    height: 50px;
+    
+}
+.tx-color-01 {
+    color: #262161;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-family: 'Inter';
+}
+.tx-13{
+    color: #262161;
+    font-weight: 700;
+    margin-left: 230px;
+}
+.buttondesign{
+    display: flex;
+    margin-top: 50px;
+}
+.btn-brand-02 {
+    background-color:#262161;
+    border-color: #262161;
+    color: #fff;
+    width: 280px;
+    height: 49px;
+    font-family: 'Poppins';
+}
+.signupbtn{
+    margin-right: 10px;
+    background-color: white;
+    color: #262161;
+}
+.loginbtn{
+    color: white;
+}
+.wrapper_content{
+    color:#262161;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 40px;
+margin-bottom: 41px;
+}
+.signinwrapper{
+    
+}
+.wd-100p{
+    height:100%
+}
+.sign-wrapper{
+    align-content: center;
 }
