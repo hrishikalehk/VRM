@@ -52,14 +52,48 @@ color: #323232;
     margin-left: 50px;
 }
 .question_text{
-    margin-left: 15px;
-    
+ margin-left: 15px;
 font-family: 'Inter UI';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 21px;
 color: #000000;
+
+}
+.todo-list{
+    list-style-type: none;
+    margin-left: 10.3px;
+    
+}
+.todo-item{
+    display: flex;
+}
+.labelContent{
+    margin-left: 15px;
+    font-family: 'Inter UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+    /* margin-top: 20px; */
+}
+.itemList{
+    margin-top: 20px;
+}
+.add_question{
+    margin-left: 15px;
+    font-family: 'Inter UI';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    color: #000000;
+    border:none;
+}
+.add_question:focus{
+    outline: none;
 }
 .cancelbtn{
     /* margin-right: 10px;   */
