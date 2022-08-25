@@ -1,4 +1,4 @@
-
+/* 
 .form-control{
     background: #FFFFFF;
     border: 0.75px solid rgba(226, 226, 226, 0.5);
@@ -57,7 +57,7 @@ margin-bottom: 41px;
 }
 .sign-wrapper{
     align-content: center;
-}
+} */
 
 element.style {
 }
@@ -74,12 +74,12 @@ element.style {
 height: 429px;
 left: 283px;
 top: 386px; */
-padding: 20px;
+ padding: 20px;
 
 width: 100%;
 background: #FFFFFF;
 box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
-border-radius: 20px;
+border-radius: 20px; 
 }
 .table{
    width: 100%;
@@ -87,4 +87,89 @@ border-radius: 20px;
 }
 .dashboard-body{
     padding-top: 20px;
+}
+.card_badge{
+  width: 100%;
+background: #FFFFFF;
+box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+border-radius: 20px; 
+}  
+.header_name{
+    font-family: 'Inter UI';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 26px;
+/* identical to box height, or 110% */
+
+display: flex;
+align-items: center;
+
+color: #323232;
+
+}
+.aside-logo{
+    position: absolute;
+width: 110px;
+height: 48px;
+left: 62px;
+top: 9px;
+
+font-family: 'Inter UI';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+display: flex;
+align-items: center;
+
+color: #000000;
+margin-left :20px;
+}
+.menu_text{
+    margin-top: 30px;
+}
+.menu_name{
+    font-family: 'Inter UI';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #323232;
+}
+.search_input_field{
+    border: 5px ;
+}
+.txt{
+  
+
+font-family: 'Inter UI';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 42px;
+/* identical to box height */
+
+text-align: center;
+
+/* Headings */
+
+color: #333840;
+
+}
+.badge_text{
+    font-family: 'Inter UI';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height */
+
+
+color: #9b9595;
 }
