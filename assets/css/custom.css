@@ -61,115 +61,119 @@ margin-bottom: 41px;
 
 element.style {
 }
-.content-search {
-    width: 879px;
-    display: flex;
-    align-items: center;
-}
 .container {
-    max-width: 100% !important;
+  max-width: 100% !important;
 }
-.table_card{
-    /* width: 703px;
+.table_card {
+  /* width: 703px;
 height: 429px;
 left: 283px;
 top: 386px; */
- padding: 20px;
- padding-bottom: 5px;
-width: 100%;
-background: #FFFFFF;
-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
-border-radius: 20px; 
-}
-.table{
-   width: 100%;
-   height: 100%;
-}
-.dashboard-body{
-    padding-top: 20px;
-}
-.card_badge{
+  padding: 20px;
+  padding-bottom: 5px;
   width: 100%;
-background: #FFFFFF;
-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
-border-radius: 20px; 
-}  
-.header_name{
-    font-family: 'Inter UI';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-line-height: 26px;
-/* identical to box height, or 110% */
-
-display: flex;
-align-items: center;
-
-color: #323232;
-
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
 }
-.aside-logo{
-    position: absolute;
-width: 110px;
-height: 48px;
-left: 62px;
-top: 9px;
-
-font-family: 'Inter UI';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-display: flex;
-align-items: center;
-
-color: #000000;
-margin-left :20px;
+.table {
+  width: 100%;
+  height: 100%;
 }
-.menu_text{
-    margin-top: 30px;
+.dashboard-body {
+  padding-top: 20px;
 }
-.menu_name{
-    font-family: 'Inter UI';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 22px;
-/* identical to box height, or 157% */
-
-text-align: center;
-text-transform: capitalize;
-
-color: #323232;
+.card_badge {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
 }
-.search_input_field{
-    border: 5px ;
+.header_name {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  /* identical to box height, or 110% */
+
+  display: flex;
+  align-items: center;
+
+  color: #323232;
 }
-.txt{
-  
+.aside-logo {
+  position: absolute;
+  width: 110px;
+  height: 48px;
+  left: 62px;
+  top: 9px;
 
-font-family: 'Inter UI';
-font-style: normal;
-font-weight: 600;
-font-size: 28px;
-line-height: 42px;
-/* identical to box height */
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
 
-text-align: center;
-
-/* Headings */
-
-color: #333840;
-
+  color: #000000;
+  margin-left: 20px;
 }
-.badge_text{
-    font-family: 'Inter UI';
-font-style: normal;
-font-weight: 600;
-font-size: 17px;
-line-height: 26px;
-/* identical to box height */
+.menu_text {
+  margin-top: 30px;
+}
+.menu_name {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
 
+  text-align: center;
+  text-transform: capitalize;
 
-color: #9b9595;
+  color: #323232;
+}
+.content-search {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.search_input_field {
+  border: 1px solid #eaebf2;
+  border-radius: 8px;
+  width: 100%;
+  margin-right: 20px;
+  flex: 1;
+  height: 38px;
+  padding: 0 8px;
+}
+.txt {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #333840;
+  line-height: 1;
+}
+.badge_text {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  color: #9b9595;
+  margin-bottom: 10px;
+}
+.nav-aside .nav-item.active .nav-link,
+.nav-aside .nav-item.active svg {
+  color: #323232;
+}
+.nav-aside .nav-item.active .nav-link::before {
+  border-left-color: #323232;
 }
