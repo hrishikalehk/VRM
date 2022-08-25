@@ -177,3 +177,43 @@ top: 386px; */
 .nav-aside .nav-item.active .nav-link::before {
   border-left-color: #323232;
 }
+
+
+/*modal*/
+
+.formlabel{
+    padding: 20px;
+    color: #000000;
+}
+.modal-body{
+    align-content: center;
+}
+.invite_via_email{
+    margin-left: 470px;
+    font-size: 15px;
+    /* background-color: #9b9595; */
+}
+.modal-footer{
+    margin-right: auto;
+}
+.nextbtn{
+    background-color: #262161;
+    color: white !important;
+    width: 120px;
+}
+a.nextbtn:hover{
+    background-color: white;
+    color: #262161 !important; 
+}
+.cancelbtn{
+    background-color: white;
+    color: #262161 !important;
+    width: 120px; 
+}
+a.cancelbtn:hover{
+    background-color: #262161;
+    color: white !important;
+}
+.plusimg{
+    height: 12px;
+}

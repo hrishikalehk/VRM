@@ -12,7 +12,7 @@
     text-align: center;
     font-size: 24px;
     font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     font-family: 'Inter UI';
 }
 .tx-13{
@@ -36,6 +36,10 @@
     margin-right: 10px;
     background-color: white;
     color: #262161;
+}
+button.signupbtn:hover{
+    background-color:  #262161;
+    color: white;
 }
 .loginbtn{
     color: white;
@@ -66,6 +70,7 @@ font-weight: 700;
 font-size: 24px;
 line-height: 26px;
 margin-left: 30px;
+margin-top: 20px;
 }
 .invitemailbtn{
     width: 160px;
@@ -86,4 +91,7 @@ font-size: 12px;
 line-height: 18px;
     letter-spacing: .5px;
     margin: 15px 0;
+}
+.signin{
+    margin-top: 10px;
 }
