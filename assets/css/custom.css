@@ -178,6 +178,16 @@ top: 386px; */
   border-left-color: #323232;
 }
 
+.product{
+    background-color: #848484;
+}
+.service{
+    background-color: #D9D9D9;
+}
+.others{
+    background-color: #3D3D3D;
+}
+
 
 /*modal*/
 
@@ -189,9 +199,13 @@ top: 386px; */
     align-content: center;
 }
 .invite_via_email{
-    margin-left: 470px;
+    margin-left: 50%;
     font-size: 15px;
     /* background-color: #9b9595; */
+}
+.invite_via_emailbtn{
+    margin-left: 470px;
+    font-size: 15px;
 }
 .modal-footer{
     margin-right: auto;
@@ -201,7 +215,7 @@ top: 386px; */
     color: white !important;
     width: 120px;
 }
-a.nextbtn:hover{
+button.nextbtn:hover{
     background-color: white;
     color: #262161 !important; 
 }
@@ -210,10 +224,14 @@ a.nextbtn:hover{
     color: #262161 !important;
     width: 120px; 
 }
-a.cancelbtn:hover{
+button.cancelbtn:hover{
     background-color: #262161;
     color: white !important;
 }
 .plusimg{
     height: 12px;
+    margin-right: 5px;
+}
+.edit_button{
+    
 }

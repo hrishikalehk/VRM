@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -73,7 +73,6 @@
     <link rel="stylesheet" href="./assets/css/dashforge.css" />
     <link rel="stylesheet" href="./assets/css/dashforge.dashboard.css" />
     <link rel="stylesheet" href="./assets/css/custom.css" />
-    <link rel="stylesheet" href="./assets/css/questionari.css">
   </head>
   <body>
     <aside class="aside aside-fixed">
@@ -285,7 +284,7 @@
               />
             </svg>
           </a>
-          <a href="./signin.html" class="nav-link"
+          <a href="" class="nav-link"
             ><svg
               width="20"
               height="20"
@@ -320,18 +319,19 @@
             </div>
 
             <div class="d-none d-md-block">
-              <button class="btn btn-sm pd-x-15 btn-dark btn-uppercase mg-l-5" data-toggle="modal" data-target="#demo-1">
+              <button class="btn btn-sm pd-x-15 btn-dark btn-uppercase mg-l-5" data-toggle="modal" data-target=".bd-example-modal-lg">
                 <i data-feather="plus" class="wd-10 mg-r-5"></i> Add Vendor
              </button>
-             <!-- [ Modal #1 ] -->
-              <div class="modal fade bd-example-modal-lg" tabindex="-1"  id="demo-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <!-- modal -->
+
+              <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-scrollable modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLabel"><b>Add Vendor</b></h5>
+                      <h5 class="modal-title" id="exampleModalLabel">Add Vendor</h5>
                       <button
-                          class="btn btn-sm invite_via_emailbtn"
-                          > <img class="plusimg" src="./assets/img/Vector.png"><span> <b>Invite via email</b></span></img></button>
+                          class="btn btn-sm pd-x-15 btn  mg-l-5 invite_via_email"
+                          > <img class="plusimg" src="./assets/img/Vector.png"><span> Invite via email</span></img></button>
                       </button>
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
@@ -554,86 +554,40 @@
               
                         </form>
                       </div>
-           
-                  <div class="modal-footer">
-                    <button class="btn btn-brand-02 cancelbtn">Cancel</button>
-                 
-                    <button class="btn btn-brand-02 nextbtn"  data-toggle="modal" data-target="#demo-2" data-dismiss="modal">Next</button>        
-                   </div>
-                </div>
-               </div>
-             </div>
-           
-             <!-- [ Modal #2 ] -->
-             <div class="modal fade bd-example-modal-lg" id="demo-2" tabindex="-1"  role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-               <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                      <div class="modal-footer">
+                        <button class="btn btn-brand-02 cancelbtn">Cancel</button>
+            <button class="btn btn-brand-02 nextbtn" data-toggle="modal" data-target=".bd-example-modal-lg" data-dismiss="modal">Next</button>
+
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable modal-lg">
                 <div class="modal-content">
-                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel"><b>Vendor questionaires</b></h5>
-                  <button
-                      class="btn btn-sm pd-x-15 btn  mg-l-5 invite_via_email"
-                      > <img class="plusimg" src="./assets/img/Vector.png"><span><b>Invite via email</b></span></img></button>
-                  </button>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                  
-                </div>
-                 <div class="modal-body">
-                  <section id="main">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Vendor</h5>
+                    <button
+                        class="btn btn-sm pd-x-15 btn  mg-l-5 invite_via_email"
+                        > <img class="plusimg" src="./assets/img/Vector.png"><span> Invite via email</span></img></button>
+                    </button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                     
-
-                    <div  id="todoListView" class="todo-list">
-                        <div class="question">
-                            <input type="checkbox" id="coding" name="interest" value="coding">
-                            <label class="question_text" for="coding">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit. Donec libero</label>
-                        </div>
-                        <div class="question">
-                            <input type="checkbox" id="music" name="interest" value="music">
-                            <label class="question_text" for="music">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit. Donec libero, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec liberoLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero</label>
-                        </div>
-                        <div class="question">
-                            <input type="checkbox" id="art" name="interest" value="art">
-                            <label class="question_text" for="art">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec libero</label>
-                        </div>
-                        <div class="question">
-                            <input type="checkbox" id="sports" name="interest" value="sports">
-                            <label class="question_text" for="sports">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit. Donec libero, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec liberoLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero</label>
-                        </div>
-                        <div class="question">
-                            <input type="checkbox" id="cooking" name="interest" value="cooking">
-                            <label class="question_text" for="cooking">Lorem ipsum dolor sit amet, consectetur adipiscing
-                                elit. Donec libero, Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Donec liberoLorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero</label>
-                        </div>
-                        
-                        
+                  </div>
+                  <div class="modal-body">
+                   
                     </div>
-                    <div class="inputClass">                        
-                        <input type="checkbox" id="cooking" name="interest" value="cooking">
-                        <input class="add_question question_text textarea" style="border: none; width: 90%;" id="newTodo" class="new-todo" placeholder="Add your question">
+                    <div class="modal-footer">
+                      <button class="btn btn-brand-02 cancelbtn">Cancel</button>
+          <button class="btn btn-brand-02 nextbtn">Next</button>
                     </div>
-                    
-                    
-                    
-                </section>
-                 </div>
-                 <div class="modal-footer">
-                  <button class="btn btn-brand-02 cancelbtn">Cancel</button>
-               
-                  <button class="btn btn-brand-02 nextbtn"  data-toggle="modal" data-dismiss="modal">Finish</button>        
-                 </div>
+                  </div>
                 </div>
-               </div>
-             </div>
+              </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- modal -->
 
-              
               </div>
             </div>
           </div>
@@ -689,268 +643,7 @@
               </div>
             </div>
           </div>
- <!-- ###################################################################################################### -->
-           <!-- Edit modal -->
 
-          <div class="modal fade bd-example-modal-lg" tabindex="-1"  id="demo-3" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable modal-lg">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel"><b>Update Vendor</b></h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <form>
-                      <div class="row formlabel">
-                        <div class="col-md-4">
-                          <label for="">Vendor name</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter your password"
-                            value="Mega Enterprises"
-                          />
-                        
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">Contact Person</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter Contact Person"
-                            value="Harish kalyan"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">Enter address</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter address"
-                            value="shopNo-2,Jogeshwari Road"
-                          />
-                        </div>
-                      </div>
-          
-                      <div class="row formlabel">
-                        <div class="col-md-4">
-                          <label for="">State</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter state"
-                            value="Mumbai"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">District</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter your password"
-                            value="Andheri"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">Pincode</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter pincode"
-                            value="400042"
-                          />
-                        </div>
-                      </div>
-          
-                      <div class="row formlabel">
-                        <div class="col-md-4">
-                          <label for="">Code</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter your password"
-                            value="987654345678"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">Service type</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter Contact Person"
-                            value="+91 98765434567"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">Telephone no.</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter telephone no."
-                            value="09876543488"
-                          />
-                        </div>
-                      </div>
-          
-                      <div class="row formlabel">
-                        <div class="col-md-4">
-                          <label for="">Mobile no.</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter mobile no."
-                            value="+91987654567"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">Fax no.</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter Fax no."
-                            value="8953585835893583258"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">Mail ID</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter mail ID"
-                            value="arcenterprises@gmail.com"
-                          />
-                        </div>
-                      </div>
-          
-                      <div class="row formlabel">
-                        <div class="col-md-4">
-                          <label for="">Website</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter Website"
-                            value="arcenterprises.com"
-                          />
-                        </div>
-                        
-                      </div>
-          
-                      <div class="row formlabel">
-                        <div class="col-md-4">
-                          <label for="">GST no</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter mobile no."
-                            value="GST4696485459"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">WBST no</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter Fax no."
-                            value="WEBT234567"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">PAN no</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter PAN no"
-                            value="KGD755749J"
-                          />
-                        </div>
-                      </div>
-          
-                      <div class="row formlabel">
-                        <div class="col-md-4">
-                          <label for="">TAN no</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter TAN no"
-                            value="TAN634748"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">Excise reg no.</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter excise reg no"
-                            value="Reg 123456"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">Bank name</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter bank name"
-                            value="HDFC Bank"
-                          />
-                        </div>
-                      </div>
-          
-                      <div class="row formlabel">
-                        <div class="col-md-4">
-                          <label for="">Branch code</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter branch code"
-                            value="HDFCPOWAI153"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">Branch account</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter branch account"
-                            value="986586305903956329"
-                          />
-                        </div>
-                        <div class="col-md-4">
-                          <label for="">RTGS/NEFT/IFSC code</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter RTGS/NEFT/IFSC code"
-                            value="HDFC00054"
-                          />
-                        </div>
-                      </div>
-          
-                      <div class="row formlabel">
-                        <div class="col-md-4">
-                          <label for="">MICR code</label>
-                          <input
-                            type="text"
-                            class="form-control"
-                            placeholder="Enter MICR code"
-                            value="MICR12345"
-                          />
-                        </div>
-                      </div>
-          
-                    </form>
-                  </div>
-       
-              <div class="modal-footer">
-                <button class="btn btn-brand-02 cancelbtn">Cancel</button>
-             
-                <button class="btn btn-brand-02 nextbtn"  data-toggle="modal" data-target="#demo-2" data-dismiss="modal">Next</button>        
-               </div>
-            </div>
-           </div>
-         </div>
-    <!-- ############################################################################################# -->
           <div class="row row-xs mt-4">
             <div class="col-sm-8">
               <div
@@ -974,12 +667,12 @@
                   <thead>
                     <tr>
                       <th class="th-sm">Vendor Name</th>
-                      <th class="th-sm">Contact Person</th>
-                      <th class="th-sm">Code</th>
-                      <th class="th-sm">Score</th>
+                      <th class="th-sm">Contact person</th>
+                      <th class="th-sm">code</th>
+                      <th class="th-sm">score</th>
                       <th class="th-sm">Mobile No</th>
                       <th class="th-sm">Status</th>
-                      <th class="th-sm">Action</th>
+                      <th class="th-sm">action</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -993,9 +686,8 @@
                         <span class="badge badge-primary">Primary</span>
                       </td>
                       <td>
-                       <a data-toggle="modal" data-target="#demo-3" >
-                        <i data-feather="edit" class="wd-15 mg-l-5 edit_button"></i></a>
-                        <i data-feather="trash-2" class="wd-15 mg-l-5"></i>
+                        <i data-feather="edit" class="wd-15 mg-l-5"></i
+                        ><i data-feather="trash-2" class="wd-15 mg-l-5"></i>
                       </td>
                     </tr>
                     <tr>
@@ -1162,11 +854,11 @@
                       <p
                         class="tx-10 tx-uppercase tx-medium tx-color-03 tx-spacing-1 tx-nowrap mg-b-5"
                       >
-                        Product
+                        Organic Search
                       </p>
                       <div class="d-flex align-items-center">
                         <div
-                          class="wd-10 ht-10 rounded-circle product mg-r-5"
+                          class="wd-10 ht-10 rounded-circle bg-pink mg-r-5"
                         ></div>
                         <h5 class="tx-normal tx-rubik mg-b-0">
                           1,320 <small class="tx-color-04">25%</small>
@@ -1178,11 +870,11 @@
                       <p
                         class="tx-10 tx-uppercase tx-medium tx-color-03 tx-spacing-1 mg-b-5"
                       >
-                        Service
+                        Email
                       </p>
                       <div class="d-flex align-items-center">
                         <div
-                          class="wd-10 ht-10 rounded-circle service mg-r-5"
+                          class="wd-10 ht-10 rounded-circle bg-primary mg-r-5"
                         ></div>
                         <h5 class="tx-normal tx-rubik mg-b-0">
                           987 <small class="tx-color-04">20%</small>
@@ -1194,18 +886,33 @@
                       <p
                         class="tx-10 tx-uppercase tx-medium tx-color-03 tx-spacing-1 mg-b-5"
                       >
-                        Others
+                        Referrral
                       </p>
                       <div class="d-flex align-items-center">
                         <div
-                          class="wd-10 ht-10 rounded-circle others mg-r-5"
+                          class="wd-10 ht-10 rounded-circle bg-teal mg-r-5"
                         ></div>
                         <h5 class="tx-normal tx-rubik mg-b-0">
                           2,010 <small class="tx-color-04">30%</small>
                         </h5>
                       </div>
                     </div>
-                   
+                    <!-- col -->
+                    <div class="col-6 mg-t-20">
+                      <p
+                        class="tx-10 tx-uppercase tx-medium tx-color-03 tx-spacing-1 mg-b-5"
+                      >
+                        Social Media
+                      </p>
+                      <div class="d-flex align-items-center">
+                        <div
+                          class="wd-10 ht-10 rounded-circle bg-orange mg-r-5"
+                        ></div>
+                        <h5 class="tx-normal tx-rubik mg-b-0">
+                          1,054 <small class="tx-color-04">25%</small>
+                        </h5>
+                      </div>
+                    </div>
                     <!-- col -->
                   </div>
                   <!-- row -->
@@ -1242,11 +949,11 @@
         "use strict";
         /** PIE CHART **/
         var datapie = {
-          labels: ["Product", "Service", "Others"],
+          labels: ["Organic Search", "Email", "Referral", "Social Media"],
           datasets: [
             {
-              data: [30, 50, 20],
-              backgroundColor: ["#3D3D3D", "#848484", "#D9D9D9"],
+              data: [20, 20, 30, 25],
+              backgroundColor: ["#f77eb9", "#7ebcff", "#7ee5e5", "#fdbd88"],
             },
           ],
         };
@@ -1279,7 +986,7 @@
               color: "#c0ccda",
               lines: {
                 fill: true,
-                fillColor: "",
+                fillColor: "#f5f6fa",
               },
             },
             {

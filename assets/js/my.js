@@ -94,7 +94,7 @@ TodoController.prototype = {
    */
   checkboxView: function (todoId) {
     var inpCheckbox = document.createElement('input');
-    this.setAttributes(inpCheckbox, { type: 'checkbox', class: 'itemList', id: todoId });
+    this.setAttributes(inpCheckbox, { type: 'checkbox', class: 'itemList', id: todoId, style: 'margin-top: 0' });
 
     //event check for input checkbox
     inpCheckbox.addEventListener('click', function (e) {
@@ -121,7 +121,9 @@ TodoController.prototype = {
    */
   createLableView: function (todo) {
     var lbContent = document.createElement('label');
-    this.setAttributes(lbContent, { value: todo.content, class: 'labelContent ' });
+    this.setAttributes(lbContent, {
+      //  value: todo.content ,
+       class: 'question_text ' ,for: todo.id});
     lbContent.innerHTML = todo.content;
 
     //return node lable
@@ -133,8 +135,8 @@ TodoController.prototype = {
    * @param {object} todo - item todo from addNewTodo 
    */
   initTodoITem: function (todo) {
-    var item = document.createElement('li');
-    item.setAttribute('class', 'todoItem');
+    var item = document.createElement('div');
+    item.setAttribute('class', 'question');
     // this.setAttributes(item, { , class: 'todoItem ' });
 
     //event event double click in node li

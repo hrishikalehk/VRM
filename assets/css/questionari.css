@@ -27,12 +27,12 @@ color: #323232;
 .form_txt{
     margin-top: -15px;
 }
-.plusimg{
+/* .plusimg{
     width: 10px;
     height: 10px;
     margin-right:10px;
- }
- .invite_via_email{
+ } */
+ /* .invite_via_email{
     font-family: 'Inter UI';
     font-style: normal;
     font-weight: 600;
@@ -43,7 +43,7 @@ color: #323232;
     .wrapper_group{
         margin-right: 30px;
 
-    }
+    } */
 .question{
     display: flex;
     justify-content: flex-start;
@@ -58,6 +58,9 @@ font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 21px;
+
+max-width: 90%;
+
 color: #000000;
 
 }
@@ -66,9 +69,7 @@ color: #000000;
     margin-left: 10.3px;
     
 }
-.todo-item{
-    display: flex;
-}
+
 .labelContent{
     margin-left: 15px;
     font-family: 'Inter UI';
@@ -95,8 +96,8 @@ color: #000000;
 .add_question:focus{
     outline: none;
 }
-.cancelbtn{
-    /* margin-right: 10px;   */
+/* .cancelbtn{ */
+    /* margin-right: 10px;  
     background-color: white !important;
     color: #18181a !important;
     border-color: #000000 ;
@@ -120,7 +121,7 @@ line-height: 21px;
 padding-left: 25px;
 padding-right: 25px;
 margin-left: 12px;
-}
+} */
 .buttondesign{
     display: flex;
     margin-top: 50px;
@@ -131,4 +132,16 @@ margin-left: 12px;
 }
 .adddtext{
     color:#18181a;
+}
+
+#todoListView{
+    align-content:center;
+}
+
+.inputClass {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 15px;
+    margin-left: 60px;
 }
