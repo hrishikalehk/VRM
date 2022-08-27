@@ -12,6 +12,7 @@
   font-weight: 700;
   margin-bottom: 60px;
   font-family: "Inter UI";
+  margin-top: 140px;
 }
 .tx-13 {
   color: #262161;
@@ -55,12 +56,7 @@ a.loginbtn:hover {
   line-height: 40px;
   margin-bottom: 41px;
 }
-.wd-100p {
-  height: 100%;
-}
-.sign-wrapper {
-  align-content: center;
-}
+
 .textdesign {
   color: #262161;
   font-family: "Inter UI";
@@ -93,7 +89,4 @@ button.invitemailbtn:hover {
   line-height: 18px;
   letter-spacing: 0.5px;
   margin: 15px;
-}
-.signin {
-  margin-top: 10px;
 }
