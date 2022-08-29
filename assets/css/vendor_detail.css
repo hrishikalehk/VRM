@@ -1,6 +1,84 @@
-.card{
-    width: 20rem;
+/* .card{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
 }
 .row{
     margin-bottom: 20px;
 }
+.bg-c-red {
+    background: #FF5370;
+}
+.viewbtn{
+    margin-left: 20px;
+    border-radius: 25px;
+    color: white;
+    height: auto;
+   
+
+}
+.search_input_field{
+    border: 2px solid rgb(122, 211, 122);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    width: 300px;
+    align-items: center;
+
+}
+.vendorimage{
+ 
+    width: 70px;
+    height: 50px;
+}
+
+.card-title{
+    font-family: "Inter UI";
+    font-size: 20px;
+} */
+.bar {
+    background-color: lightgrey;
+	width: 275px;
+	height: 20px;
+	border-radius: 3px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.progress {
+	width: 200px;
+	height: 20px;
+	border-radius: 5px;
+	background: linear-gradient(to right, orange, #c1f434, rgb(117, 182, 117), rgb(42, 240, 42));
+}
+a{
+    color: #262161;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #262161;
+    border-color: #262161;
+}
+.btn-primary:hover{
+    color: #262161;
+    background-color: white; 
+    border-color: #262161;
+}
+.search-form{
+    width: 300px;
+}
+.avatar:not(:first-child){
+    margin-left: -10px;
+  }
+  .avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .status{
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+  .cardinfo{
+    margin-bottom: 15px;
+  }
